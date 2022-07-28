@@ -37,8 +37,6 @@ Eigen::Matrix4f get_model_matrix(float rotation_angle)
 Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
                                       float zNear, float zFar)
 {
-    // Students will implement this function
-
     Eigen::Matrix4f projection = Eigen::Matrix4f::Identity();
 
     double fovY = eye_fov / 180.0 * MY_PI;
@@ -64,6 +62,26 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
 
     projection = projection * ortho * persp2ortho;
     return projection;
+}
+
+Eigen::Matrix4f get_rotation(Vector3f axis, float angle)
+{
+    Eigen::Matrix4f rotation = Eigen::Matrix4f::Identity();
+    Eigen::Matrix3f temp_rotation = Eigen::Matrix3f::Identity();
+    Eigen::Matrix3f N;
+    N << 0, -axis[2], axis[1],
+         axis[2], 0, -axis[0],
+         -axis[1], axis[0], 0;
+    double rotation_angle = angle / 180.0 * MY_PI;
+    temp_rotation = temp_rotation * cos(rotation_angle) + (1 - cos(rotation_angle)) * axis * axis.transpose();
+    temp_rotation = temp_rotation + sin(rotation_angle) * N;
+
+    rotation << temp_rotation(0, 0), temp_rotation(0, 1), temp_rotation(0, 2), 0,
+                temp_rotation(1, 0), temp_rotation(1, 1), temp_rotation(1, 2), 0,
+                temp_rotation(2, 0), temp_rotation(2, 1), temp_rotation(2, 2), 0,
+                0, 0, 0, 1;
+
+    return rotation;
 }
 
 int main(int argc, const char** argv)

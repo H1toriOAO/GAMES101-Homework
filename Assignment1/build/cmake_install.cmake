@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alive/Code/GAMES101/Assignment1/代码框架
+# Install script for directory: /Users/alive/Code/GAMES101/Assignment1/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

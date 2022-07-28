@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/clang++"
 		},
 		{
@@ -251,10 +251,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "/usr/bin/clang"
 		},
 		{
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/alive/Code/GAMES101/Assignment1/\u4ee3\u7801\u6846\u67b6"
+			"value" : "/Users/alive/Code/GAMES101/Assignment1/src"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alive/Code/GAMES101/Assignment1/\u4ee3\u7801\u6846\u67b6"
+			"value" : "/Users/alive/Code/GAMES101/Assignment1/src"
 		}
 	],
 	"kind" : "cache",
