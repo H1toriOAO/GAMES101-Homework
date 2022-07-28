@@ -1,0 +1,14 @@
+"/Users/alive/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/alive/Code/GAMES101/pa0 -B /Users/alive/Code/GAMES101/pa0/cmake-build-debug
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.22)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/alive/Code/GAMES101/pa0/cmake-build-debug
