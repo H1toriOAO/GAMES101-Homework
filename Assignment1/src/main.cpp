@@ -43,24 +43,12 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio,
     double t = abs(zNear) * tan(fovY / 2);
     double r = t * aspect_ratio;
 
-    Eigen::Matrix4f ortho1, ortho2;
-    ortho1 << (2 / (r * 2)), 0            , 0                   , 0,
-              0            , (2 / (t * 2)), 0                   , 0,
-              0            , 0            , (2 / (zFar - zNear)), 0,
-              0            , 0            , 0                   , 1;
-    ortho2 << 1, 0, 0, 0,
-              0, 1, 0, 0,
-              0, 0, 1, -(zNear + zFar) / 2,
-              0, 0, 0, 1;
-    Eigen::Matrix4f ortho = ortho1 * ortho2;
+    projection <<
+    zNear / r, 0,         0,                                0,
+    0,         zNear / t, 0,                                0,
+    0,         0,         -(zFar + zNear) / (zFar - zNear), -2 * zNear * zFar / (zFar - zNear),
+    0,         0,         -1,                               0;
 
-    Eigen::Matrix4f persp2ortho;
-    persp2ortho << zNear, 0    , 0           , 0            ,
-                   0    , zNear, 0           , 0            ,
-                   0    , 0    , zNear + zFar, -zNear * zFar,
-                   0    , 0    , 1           , 0;
-
-    projection = projection * ortho * persp2ortho;
     return projection;
 }
 
