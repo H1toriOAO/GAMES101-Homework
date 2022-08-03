@@ -20,8 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35d084d-8556-4221-98f4-7787f6e0cf63" name="变更" comment="Assignment2 基础部分 &amp;&amp; Assignment1 纠正&#10;（参考https://zhuanlan.zhihu.com/p/509902950）">
+    <list default="true" id="f35d084d-8556-4221-98f4-7787f6e0cf63" name="变更" comment="思维导图（至Lecture 07）">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/src/rasterizer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/src/rasterizer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/src/rasterizer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/src/rasterizer.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +91,8 @@
       <workItem from="1658999931540" duration="2221000" />
       <workItem from="1659078331467" duration="77000" />
       <workItem from="1659233719169" duration="6439000" />
+      <workItem from="1659240503776" duration="137000" />
+      <workItem from="1659533037701" duration="4321000" />
     </task>
     <task id="LOCAL-00001" summary="完成了作业1中的提高要求">
       <created>1659005306229</created>
@@ -111,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659240347430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="思维导图（至Lecture 07）">
+      <created>1659240594108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659240594108</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +144,7 @@
     <MESSAGE value="完成了作业1中的提高要求" />
     <MESSAGE value="清除冗余文件" />
     <MESSAGE value="Assignment2 基础部分 &amp;&amp; Assignment1 纠正&#10;（参考https://zhuanlan.zhihu.com/p/509902950）" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment2 基础部分 &amp;&amp; Assignment1 纠正&#10;（参考https://zhuanlan.zhihu.com/p/509902950）" />
+    <MESSAGE value="思维导图（至Lecture 07）" />
+    <option name="LAST_COMMIT_MESSAGE" value="思维导图（至Lecture 07）" />
   </component>
 </project>
