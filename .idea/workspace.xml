@@ -14,16 +14,15 @@
       <config projectName="Rasterizer" targetName="Rasterizer" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f35d084d-8556-4221-98f4-7787f6e0cf63" name="变更" comment="思维导图（至Lecture 07）">
+    <list default="true" id="f35d084d-8556-4221-98f4-7787f6e0cf63" name="变更" comment="思维导图（至Lecture 08）&#10;Assignment2 更新MSAA">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/src/rasterizer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/src/rasterizer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment2/src/rasterizer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/src/rasterizer.hpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,11 @@
   }
 }</component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Rasterizer" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Rasterizer" TARGET_NAME="Rasterizer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Rasterizer" RUN_TARGET_NAME="Rasterizer">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -92,7 +96,8 @@
       <workItem from="1659078331467" duration="77000" />
       <workItem from="1659233719169" duration="6439000" />
       <workItem from="1659240503776" duration="137000" />
-      <workItem from="1659533037701" duration="4321000" />
+      <workItem from="1659533037701" duration="4868000" />
+      <workItem from="1659751232633" duration="1355000" />
     </task>
     <task id="LOCAL-00001" summary="完成了作业1中的提高要求">
       <created>1659005306229</created>
@@ -122,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659240594108</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="思维导图（至Lecture 08）&#10;Assignment2 更新MSAA">
+      <created>1659537475135</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659537475135</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +157,7 @@
     <MESSAGE value="清除冗余文件" />
     <MESSAGE value="Assignment2 基础部分 &amp;&amp; Assignment1 纠正&#10;（参考https://zhuanlan.zhihu.com/p/509902950）" />
     <MESSAGE value="思维导图（至Lecture 07）" />
-    <option name="LAST_COMMIT_MESSAGE" value="思维导图（至Lecture 07）" />
+    <MESSAGE value="思维导图（至Lecture 08）&#10;Assignment2 更新MSAA" />
+    <option name="LAST_COMMIT_MESSAGE" value="思维导图（至Lecture 08）&#10;Assignment2 更新MSAA" />
   </component>
 </project>
