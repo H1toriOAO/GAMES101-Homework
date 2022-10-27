@@ -11,7 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="BezierCurve" targetName="BezierCurve" />
+      <config projectName="RayTracing" targetName="RayTracing" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -21,12 +21,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f35d084d-8556-4221-98f4-7787f6e0cf63" name="变更" comment="Assignment 3&#10;使用Normal Shader渲染成功">
-      <change afterPath="$PROJECT_DIR$/Assignment4/assignment4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment4/code/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment4/code/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Light.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Object.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Renderer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Renderer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Scene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Scene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Sphere.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Triangle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Vector.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/global.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment1/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment3/Code/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Code/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,32 +67,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/Users/takina/Projects/GAMES101-Homework/Assignment5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assignment5" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assignment5" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BezierCurve" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BezierCurve" TARGET_NAME="BezierCurve" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BezierCurve" RUN_TARGET_NAME="BezierCurve">
+    <configuration name="RayTracing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RayTracing" TARGET_NAME="RayTracing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RayTracing" RUN_TARGET_NAME="RayTracing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -108,6 +129,14 @@
       <workItem from="1661158772259" duration="6000" />
       <workItem from="1661160441233" duration="147000" />
       <workItem from="1661171733075" duration="4012000" />
+      <workItem from="1662034794688" duration="8000" />
+      <workItem from="1662045250381" duration="76000" />
+      <workItem from="1662080148306" duration="300000" />
+      <workItem from="1666320116362" duration="1738000" />
+      <workItem from="1666684422407" duration="244000" />
+      <workItem from="1666684673512" duration="8000" />
+      <workItem from="1666684689189" duration="15000" />
+      <workItem from="1666835440201" duration="2530000" />
     </task>
     <task id="LOCAL-00001" summary="完成了作业1中的提高要求">
       <created>1659005306229</created>
