@@ -16,28 +16,58 @@
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" ENABLED="true" GENERATION_DIR="build" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f35d084d-8556-4221-98f4-7787f6e0cf63" name="变更" comment="Assignment 3&#10;使用Normal Shader渲染成功">
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Light.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Object.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Renderer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Renderer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Scene.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Scene.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Sphere.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Triangle.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/Vector.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/global.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/Code/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/.cmake/api/v1/reply/cache-v2-66b20b0cd5e9fcef725e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-60e1fcf655c77e861b49.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8f27e327cf0f7ffff285.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-22T07-59-53-0186.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/.cmake/api/v1/reply/target-RayTracing-Debug-be431692c8585ca87d97.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-b57293a485ebf36c82cc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/Code/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/assignment5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/PA6.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/AreaLight.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/BVH.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/BVH.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Bounds3.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Intersection.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Light.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Material.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/OBJ_Loader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Object.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Ray.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Renderer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Renderer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Scene.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Scene.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Sphere.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Triangle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/Vector.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/global.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment6/src/models/bunny/bunny.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment1/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment1/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment3/Code/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment3/Code/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment5/Code/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment5/Code/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +109,19 @@
     "cf.advertisement.text.has.clang-format": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/Users/takina/Projects/GAMES101-Homework/Assignment5",
+    "last_opened_file_path": "/Users/h1tori/Projects/GAMES101-Homework",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "CMakeSettings",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Assignment5" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -137,6 +169,17 @@
       <workItem from="1666684673512" duration="8000" />
       <workItem from="1666684689189" duration="15000" />
       <workItem from="1666835440201" duration="2530000" />
+      <workItem from="1673163404012" duration="1975000" />
+      <workItem from="1674380846367" duration="1274000" />
+      <workItem from="1674642901242" duration="82000" />
+      <workItem from="1674642989130" duration="81000" />
+      <workItem from="1674643091336" duration="81000" />
+      <workItem from="1674643294067" duration="120000" />
+      <workItem from="1674661028650" duration="185000" />
+      <workItem from="1674741833538" duration="141000" />
+      <workItem from="1674741983632" duration="337000" />
+      <workItem from="1674984880183" duration="219000" />
+      <workItem from="1679471992545" duration="3845000" />
     </task>
     <task id="LOCAL-00001" summary="完成了作业1中的提高要求">
       <created>1659005306229</created>
